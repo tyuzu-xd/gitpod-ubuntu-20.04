@@ -13,6 +13,6 @@ jobs:
       with:
         name: traversaro/gitpod-ubuntu-20.04
         username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}
+        password: ${{ secrets.GH_TOKEN }}
         workdir: dockerfiles
         registry: ghcr.io
